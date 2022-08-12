@@ -1,0 +1,32 @@
+.header {
+    width: 100%;
+    background-color: aqua;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 30rem;
+    height: 20rem;
+    position: relative;
+    display: flex;
+}
+.image {
+    width: 100%;
+    object-fit: contain;
+}
+.navBar {
+    & ul {
+        display: flex;
+        font-size: 2.4rem;
+        list-style-type: none;
+        & li {
+            margin: 2rem;
+            & a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
