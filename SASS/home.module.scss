@@ -1,0 +1,94 @@
+.content {
+}
+.hero {
+  width: 100%;
+  display: flex;
+}
+.infoBox {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 50rem;
+  padding: 3rem;
+  background-color: blueviolet;
+}
+.image {
+  height: 30rem;
+  width: 20rem;
+  flex: 1;
+  position: relative;
+}
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  padding: 0rem 2rem;
+  height: 100%;
+  // background-color: wheat;
+  & h1 {
+    font-size: 2.4rem;
+  }
+  & p {
+    font-size: 1.6rem;
+    text-indent: 2rem;
+  }
+}
+.recentAddedBox {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 50rem;
+  padding: 2rem;
+
+  // background-color: grey;
+}
+.recentImg {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+.homeSection {
+  display: flex;
+}
+.detailsBox {
+  flex: 1;
+  background-color: yellow;
+  height: 40rem;
+}
+
+.callToActionBox {
+  flex: 1;
+  height: 40rem;
+  padding: 3rem;
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    'PLA .'
+    '. PETG';
+}
+.plaBtn {
+  grid-area: PLA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-size: 3.6rem;
+}
+.petgBtn {
+  grid-area: PETG;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tan;
+  font-size: 3.6rem;
+}
