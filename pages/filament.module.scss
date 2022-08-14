@@ -1,23 +1,27 @@
 .main {
-    display: flex;
+  display: flex;
 }
 .filters {
-    height: 100vh;
-    width: 20%;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: aquamarine;
+  height: 100vh;
+  width: 20%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+//   align-items: flex-start;
+  background-color: aquamarine;
 }
 .filaments {
-    width: 60%;
-    height: 100vh;
-    padding: 3rem;
-    background-color: beige;
+  width: 60%;  
+  padding: 3rem;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 .addSpace {
-    width: 20%;
-    height: 100vh;
-    background-color: black;
+  width: 20%;
+  background-color: black;
+}
+.dropdown_container {
+  width: 100%;
 }
